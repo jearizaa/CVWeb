@@ -1,9 +1,12 @@
 import './Home.css';
+import { useHistory } from "react-router-dom";
 
 function Home() {
-
+    let history = useHistory();
     function redirect(){
-
+        setTimeout(function(){
+            history.push('/CVWeb/curriculum');
+        }, 1000)
     }
     return (
         <div id="arc_container">
