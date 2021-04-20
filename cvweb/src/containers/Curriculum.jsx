@@ -2,7 +2,7 @@ import './Curriculum.css'
 
 function Curriculum(){
     return (
-        <div>Hola</div>
+        <div>En construcción</div>
     )
 }
 
